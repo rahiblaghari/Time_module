@@ -16,6 +16,6 @@ else:
     add_zero_min=""
 print(daydict[day], mondict[month-1], date, str(hour_here)+":"+add_zero_min+str(minute)+":"+str(add_zero_sec)+str(second), year)
 
-time.sleep(4)
+#time.sleep(4)
 print(time.asctime())
 print(time.ctime())
